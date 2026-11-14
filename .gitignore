@@ -1,0 +1,22 @@
+﻿node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+pipeline/_cache/
+pipeline/.venv/
+pipeline/__pycache__/
+__pycache__/
+*.pyc
+
+app/test-results/
+app/playwright-report/
+.shots/
+
+# Local agent runner files; not part of TerraVoxis.
+/agent.mjs
+/models.mjs
+/package.json
+/package-lock.json
+*.tmp.mjs
